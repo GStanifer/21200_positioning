@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+
+body{
+
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: 8px 8px;
+    position: fixed;
+    border-bottom: solid black;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+#whiteboxes{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    box-sizing: border-box;
+    margin: 20px;
+    position: relative;
+}
+
+#background{
+    height: 800px;
+    width: 100%;
+    background-color: grey;
+    position: relative;
+}
+
+#logo{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    background-color: black;
+    margin: 0;
+    top: 0;
+    right: 0;
+}
+/* Control / for comment */
+
+footer{
+    width: 100%;
+    height: 80px;
+    border-top: 2px solid black;
+    text-align: center;
+    position: relative;
+}
+
+
